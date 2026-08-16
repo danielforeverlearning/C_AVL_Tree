@@ -26,11 +26,23 @@ Balance factor = 0, 1, -1 means tree is balanced
   \                                                            /  \
    \ R                                                      L /    \ R
     \                                                        /      \
-     20      ===== counter-clockwise-rotation =====>       10       30
+     20      ===== counter-clockwise-rotation =====>       10        30
       \
        \ R
         \
         30
+
+
+(2) LL
+            30                                                 20
+           /                                                  /  \
+        L /                                                L /    \ R
+         /                                                  /      \
+       20         ===== clockwise-rotation =====>         10        30
+       /
+    L /
+     /
+    10
 
 **********************************************************************/
 
